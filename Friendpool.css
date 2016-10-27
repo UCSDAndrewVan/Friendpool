@@ -1,3 +1,29 @@
-.h1{
-    background-color: aquamarine;
+@font-face 
+{
+    font-family: bebasNeue;
+    src:url('BebasNeue Bold.otf');
+}
+
+h1 {
+    font-size: 50px;
+    text-align:center;
+    font-family:bebasNeue;
+    text-transform: uppercase;
+    word-spacing: 3%;
+}
+
+.body{
+    align-items: center;
+}
+
+div{
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    max-width: 40%;
+}
+
+div + div, div:first-child
+{
+    margin: 10px;
 }
