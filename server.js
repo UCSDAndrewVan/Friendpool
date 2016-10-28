@@ -1,9 +1,7 @@
 /**
- * Introduction to Human-Computer Interaction
- * Lab 1
- * --------------
- * Created by: Michael Bernstein
- * Last updated: December 2013
+ * Friendpool
+ * 
+ * Authors: Andrew Van, Alex Lee, Tim Banh
  */
 var PORT = 3000;
 
