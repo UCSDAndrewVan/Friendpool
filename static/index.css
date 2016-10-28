@@ -1,0 +1,65 @@
+@font-face
+{
+    font-family: myFont;
+    src:url('fonts/BebasNeue Bold.otf');
+}
+
+
+h1{
+    text-align: center;
+    font-size: 55px;
+     font-family: myFont;
+    letter-spacing: 1px;
+}
+
+.row
+{
+    font-family: myFont;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    max-width: 45%;
+    text-align: left;
+}
+
+.col-sm-4 p1
+{    font-size:32px;
+    margin: auto;
+    float: left;
+    text-transform: uppercase;
+}
+
+.col-sm-4 p2
+{   
+    font-size:32px;
+    margin: auto;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.col-sm-4 img
+{
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+.helpSettings
+{
+    text-align: right;
+    margin-right: 5%;
+}
+
+
+body .row
+{
+    margin-bottom: 8px;
+}
+
+#temp
+{
+    background-color: lightgray;
+}
