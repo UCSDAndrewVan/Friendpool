@@ -1,7 +1,7 @@
 @font-face
 {
     font-family: myFont;
-    src:url('BebasNeue Bold.otf');
+    src:url('fonts/BebasNeue Bold.otf');
 }
 
 
@@ -27,6 +27,7 @@ h1{
 {    font-size:32px;
     margin: auto;
     float: left;
+    text-transform: uppercase;
 }
 
 .col-sm-4 p2
@@ -34,6 +35,7 @@ h1{
     font-size:32px;
     margin: auto;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .col-sm-4 img
