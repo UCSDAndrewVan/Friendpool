@@ -1,0 +1,44 @@
+@font-face
+{
+    font-family: myFont;
+    src:url('fonts/BebasNeue Bold.otf');
+}
+
+body {
+  background-color: #b3e6ff;
+}
+
+h1 { 
+  color: white;
+  font-family: myFont;
+  font-size: 5em;
+}
+
+body {
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.button {
+    color: white;
+    margin: auto;
+    display: inline-block;
+    font-size: 32px;
+    font-family: myFont;
+}
+
+.divider{
+    width:50px;
+    height:auto;
+    display:inline-block;
+}
+
+.well {
+    background-color: rgba(245, 245, 245, 0.4);
+}
+
+.gif {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

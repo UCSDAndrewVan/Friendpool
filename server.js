@@ -12,8 +12,11 @@ var express = require('express');
 // Create the server instance
 var app = express();
 
-// Compress pages we send
-//app.use(express.compress());
+var exphbs = require('express-handlebars');
+
+// Sets the templating engine to be handlebars
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.set('view engine', 'handlebars');
 
 // Return all pages in the /static directory
 // whenever they are requested at '/'
