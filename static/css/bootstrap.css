@@ -182,6 +182,7 @@ html input[disabled] {
 
 input[type="checkbox"],
 input[type="radio"] {
+    
   padding: 0;
   box-sizing: border-box;
 }
@@ -2001,6 +2002,7 @@ textarea.form-control {
   margin-bottom: 0;
   font-weight: normal;
   cursor: pointer;
+  vertical-align: middle;
 }
 
 .radio input[type="radio"],
