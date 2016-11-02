@@ -6,37 +6,24 @@
 
 body {
   background-color: #b3e6ff;
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 h1 { 
   color: white;
   font-family: myFont;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  font-size: 10vw;
+  padding-top: 15vmax;
+  padding-bottom: 40vmax;
+  font-size: 8vmax;
 }
 
-.yes {
+.button {
   color: white;
   margin: auto;
   display: inline-block;
-  font-size: 10vw;
+  font-size: 7vmax;
   font-family: myFont;
-  padding-right: 150px;
-}
-
-.no {
-  color: white;
-  margin: auto;
-  display: inline-block;
-  font-size: 10vw;
-  font-family: myFont;
-  padding-left: 150px;
-}
-
-body {
-  color: #fff;
-  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .well {

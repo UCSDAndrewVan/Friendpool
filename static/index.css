@@ -7,7 +7,7 @@
 
 h1{
     text-align: center;
-    font-size: 55px;
+    font-size: 5vmax;
     font-family: myFont;
     letter-spacing: 1px;
 }
@@ -20,15 +20,16 @@ body {
 {
     font-family: myFont;
     margin: auto;
-    border-style: solid;
     border-color: black;
-    border-width: medium;
-    max-width: 45%;
-    text-align: left;
+    background-color:white;
+    padding-top: 3vmax;
+    padding-bottom: 3vmax;
+    max-width: 50vmax;
 }
 
 .col-sm-4 p1
-{    font-size:32px;
+{    
+    font-size:4vmax;
     margin: auto;
     float: left;
     text-transform: uppercase;
@@ -36,19 +37,18 @@ body {
 
 .col-sm-4 p2
 {   
-    font-size:32px;
+    font-size:4vmax;
+    text-align: right;
     margin: auto;
-    text-align: left;
     text-transform: uppercase;
 }
 
 .col-sm-4 img
 {
-    float: right;
-    width: 50px;
-    height: 50px;
+    float:right;
+    width: 5vmax;
+    height: 5vmax;
     border-radius: 50%;
-    background-color: lightgray;
 }
 
 .helpSettings
@@ -63,7 +63,7 @@ body .row
     margin-bottom: 8px;
 }
 
-#temp
+#unavailable
 {
-    background-color: lightgray;
+    background-color: bisque;
 }

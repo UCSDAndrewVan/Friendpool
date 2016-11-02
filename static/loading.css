@@ -11,7 +11,7 @@ body {
 h1 { 
   color: white;
   font-family: myFont;
-  font-size: 5em;
+  font-size: 7vmax;
 }
 
 body {
@@ -23,14 +23,17 @@ body {
     color: white;
     margin: auto;
     display: inline-block;
-    font-size: 32px;
+    font-size: 5vmax;
     font-family: myFont;
 }
 
-.divider{
-    width:50px;
-    height:auto;
-    display:inline-block;
+.row {
+    text-align: center;
+}
+
+.col-xs-12 img {
+    padding-top: 25vmax;
+    padding-bottom: 20vmax;
 }
 
 .well {
