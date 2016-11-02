@@ -1,20 +1,27 @@
 {
-  "name": "cs147-lab-1",
-  "description": "Serving static content via html files",
-  "version": "0.0.1",
-  "author": "CS147 Staff <cs147@cs.stanford.edu>",
-
-  "repository": {
-  	"type": "git",
-  	"url": "https://github.com/StanfordHCI/cs147"
-  },
-  "license": "MIT",
-
+  "name": "friendpool",
+  "version": "1.0.0",
+  "description": "Friendpool",
   "main": "server.js",
   "dependencies": {
-    "express": "3.x"
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express3-handlebars": "^0.5.2",
+    "handlebars": "^4.0.5"
   },
-  "engines": {
-  	"node": "0.10.x"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCSDAndrewVan/Friendpool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UCSDAndrewVan/Friendpool/issues"
+  },
+  "homepage": "https://github.com/UCSDAndrewVan/Friendpool#readme"
 }
