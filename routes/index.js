@@ -18,4 +18,3 @@ $(document).on("click", '.ride', function( ) {
     sessionStorage.setItem('name', name);
     sessionStorage.setItem('img', img);
 });
-        
