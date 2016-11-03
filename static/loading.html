@@ -3,17 +3,43 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+  <link href="loading.css" rel="stylesheet" type="text/css" />
   <title>Awaiting Confirmation</title>
-    <h1>Awaiting confirmation...</h1>
+    
   <meta name="description" content="Loading">
   <meta name="author" content="SitePoint">
-
+    
 </head>
 
 <body>
-    <a href="rideaccepted.html">Rice has been accepted!</a>
-    <a href="ridedenied.html">Ride has been denied</a>
-    <a href="cancelrequest.html">Cancel Ride</a>
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1 class= "text-center">Awaiting confirmation from Driver</h1>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-xs-12">
+            <img src="images/red-car.gif" alt="Animated Car" class="img-rounded">
+        </div>
+    
+        <div class="col-xs-12">
+            <a href="cancelrequest.html" class="button">Cancel Ride</a>
+        </div>
+    </div>
+  </div>
 </body>
 </html>
