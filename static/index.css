@@ -19,6 +19,7 @@ body {
 .row
 {
     font-family: myFont;
+    cursor: pointer;
     margin: auto;
     border-color: black;
     background-color:white;
@@ -27,23 +28,23 @@ body {
     max-width: 50vmax;
 }
 
-.col-sm-4 p1
+.col-sm-6 p1
 {    
     font-size:4vmax;
     margin: auto;
-    float: left;
+    text-align: center;
     text-transform: uppercase;
 }
 
 .col-sm-4 p2
 {   
     font-size:4vmax;
-    text-align: right;
+    text-align: left;
     margin: auto;
     text-transform: uppercase;
 }
 
-.col-sm-4 img
+.col-sm-2 img
 {
     float:right;
     width: 5vmax;
@@ -60,7 +61,7 @@ body {
 
 body .row
 {
-    margin-bottom: 8px;
+    margin-bottom: 1vmax;
 }
 
 #unavailable
