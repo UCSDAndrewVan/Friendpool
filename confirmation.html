@@ -2,24 +2,36 @@
 
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="confirmationStyle.css">
+    <link rel="stylesheet" type="text/css" href="confirmation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <meta charset="utf-8">
-    
-  <title>Confirmation</title>
+
   <meta name="description" content="Confirmation">
   <meta name="author" content="SitePoint">
 
 </head>
 
 <body>
-    <img id="smiley" src="higherres-smiley.png">
-    <p style="font-size:48pt; font-family: bebas neue; text-align:center;">Do you want to request a ride from</p>
-    <p style="font-size:108pt; font-family:bebas neue; text-align:center">Tim Banh</p>
-    <a href="index.html">
-        <img id="no" src="no.png" alt="No">
-    </a>
+    <div class ="row">
+        <p1>Do you want to request a ride from</p1>
+    </div>
+
+    <div class ="row">
+        <img id="smiley" src="images/profile.png">
+    </div>
+
+    <div class ="row"> 
+        <p2>Tim Banh</p2>        
+    </div>
+    
+    <div class = "yesno">
     <a href="loading.html">
-        <img id="yes" src="yes.png" alt="Yes">
+        <i class="fa fa-check-circle" style="font-size:215px;color:green;margin-left:28%" id = "yes"></i>
     </a>
+        
+    <a href="index.html" >
+        <i class="fa fa-close" style="font-size:215px;color:red;margin-right: 28%" id = "no"></i>
+    </a>
+    </div>
 </body>
 </html>
