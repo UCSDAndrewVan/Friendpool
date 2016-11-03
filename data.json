@@ -1,0 +1,39 @@
+{
+	"friends": [
+		{
+			"name": "Andrew Van",
+			"depart": "10:05 a.m.",
+			"imageURL": "images/andrew.jpg"			
+		},
+        {
+			"name": "Aman Azad",
+			"depart": "10:10 a.m.",
+			"imageURL": "images/aman.jpg"			
+		},
+        {
+			"name": "Nhu Nguyen",
+			"depart": "10:20 a.m.",
+			"imageURL": "images/nhu.jpg"			
+		},
+        {
+			"name": "Tim Banh",
+			"depart": "10:32 a.m.",
+			"imageURL": "images/tim.jpg"			
+		},
+        {
+			"name": "Alex Lee",
+			"depart": "11:15 a.m.",
+			"imageURL": "images/alex.jpg"			
+		},
+        {
+			"name": "Fiona Tran",
+			"depart": "11:32 a.m.",
+			"imageURL": "images/fiona.jpg"			
+		},
+        {
+			"name": "Mark",
+			"depart": "UNAVAILABLE",
+			"imageURL": "images/mark.jpg"			
+		}
+	]
+}

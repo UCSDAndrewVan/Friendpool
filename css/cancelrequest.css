@@ -1,0 +1,27 @@
+@font-face
+{
+  font-family: myFont;
+  src:url('../fonts/BebasNeue Bold.otf');
+}
+
+body {
+  background-color: #b3e6ff;
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+h1 { 
+  color: white;
+  font-family: myFont;
+  padding-top: 15vmax;
+  padding-bottom: 40vmax;
+  font-size: 8vmax;
+}
+
+.button {
+  color: white;
+  margin: auto;
+  display: inline-block;
+  font-size: 7vmax;
+  font-family: myFont;
+}
