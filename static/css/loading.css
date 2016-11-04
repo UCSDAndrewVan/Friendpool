@@ -6,17 +6,15 @@
 
 body {
   background-color: #b3e6ff;
+  text-align: center;
 }
 
 h1 { 
-  color: white;
   font-family: myFont;
   font-size: 7vmax;
-}
+  text-align: center;
+  letter-spacing: 1px;
 
-body {
-    color: #fff;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .button {
