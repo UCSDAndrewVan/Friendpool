@@ -9,6 +9,7 @@
 document.getElementById("submit").onclick = function() {mySubmit()};
                     
 function mySubmit(){
-    var time = document.getSelection;
-    sessionStorage.setItem('time', time);
+    var select = document.getElementById("sel2").selectedIndex;
+    var time = document.getElementsByTagName("option")[select].value;
+    localStorage.setItem('time', time);
 }

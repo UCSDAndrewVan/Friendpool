@@ -10,3 +10,7 @@
 body {
   background-color: #b3e6ff;
 }
+
+.divider {
+    padding-bottom: 2vmax;
+}
