@@ -12,7 +12,7 @@ var express = require('express');
 // Create the server instance
 var app = express();
 
-var exphbs = require('express-handlebars');
+var exphbs = require('express3-handlebars');
 
 // Sets the templating engine to be handlebars
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
