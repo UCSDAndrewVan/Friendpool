@@ -20,3 +20,9 @@ body {
     vertical-align: top;
     text-align: left;
 }
+
+.helpSettings
+{
+    text-align: right;
+    margin-right: 5%;
+}
