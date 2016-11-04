@@ -6,3 +6,18 @@
     height:30vmax;
     width:30vmax;
 }
+
+body {
+  background-color: #b3e6ff;
+  text-align: center;
+}
+
+@font-face
+{
+    font-family: myFont;
+    src:url('../fonts/BebasNeue Bold.otf');
+}
+
+.divider {
+    padding: 1vmax;   
+}
