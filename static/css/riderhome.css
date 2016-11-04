@@ -58,6 +58,9 @@ body {
     margin-right: 5%;
 }
 
+.goback {
+    padding-left: 3vmax;
+}
 
 body .row
 {
