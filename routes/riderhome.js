@@ -12,8 +12,8 @@ function (data){
         row.append('<div class="col-sm-4"><p2>'+ data.friends[i].depart + "</p2></div>");
         row.append('<div class="col-sm-2" value="' + data.friends[i].imageURL + '"><img src="'+ data.friends[i].imageURL + '"></div>');
         row.append('<div class="col-sm-6"><p1>' + data.friends[i].name + "</p1></div>");
-        
         frame.append(row);
+        sessionStorage.setItem('number', data.friends[i].number);
     }
 });
 

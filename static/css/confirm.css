@@ -6,12 +6,10 @@
 
 body {
   background-color: #b3e6ff;
-  color: #fff;
-  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .button {
-    color: white;
+    color: black;
     margin: auto;
     display: inline-block;
     font-size: 7vmax;
@@ -23,8 +21,13 @@ h2 {
     text-align: center;
     font-family: myFont;
     font-size: 6vmax;
-    padding-bottom: 5vmax;
-    color: white;
+}
+
+.col-xs-12 {
+    text-align: center;
+    font-family: myFont;
+    font-size: 6vmax;
+    padding-bottom: 1vmax;   
 }
 
 .row
@@ -37,13 +40,12 @@ h2 {
 {
     font-family: myFont;
     font-size: 6vmax;
-    color: white;
 }
 
 .row img
 {
-    width: 40vmax;
-    height: 40vmax;
+    width: 40%;
+    height: 40%;
     border-radius: 50%;
 }
 
@@ -52,5 +54,4 @@ h2 {
     text-align: center;
     font-family: myFont;
     font-size: 6vmax;
-    color: white;
 }

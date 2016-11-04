@@ -1,0 +1,39 @@
+@font-face
+{
+    font-family: myFont;
+    src:url('../fonts/BebasNeue Bold.otf');
+}
+
+
+h1{
+    text-align: center;
+    font-size: 5vmax;
+    font-family: myFont;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: #b3e6ff;
+}
+
+.col-xs-12 {
+    text-align: center;
+}
+
+.col-xs-12 p {
+    font-family: myFont;
+    font-size: 4vmax;
+    padding-top: 3vmax;
+}
+
+.col-xs-12 img {
+    border-radius: 50%;  
+    padding-top: 5vmax;
+    padding-bottom: 5vmax;
+    width: 40%;
+    height: 40%;
+}
+
+.ridegroup {
+    text-align: center;
+}

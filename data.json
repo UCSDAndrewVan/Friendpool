@@ -3,37 +3,44 @@
 		{
 			"name": "Andrew Van",
 			"depart": "10:05 a.m.",
-			"imageURL": "images/andrew.jpg"			
+			"imageURL": "images/andrew.jpg",	
+            "number": "(800) 273-8255"
 		},
         {
 			"name": "Aman Azad",
 			"depart": "10:10 a.m.",
-			"imageURL": "images/aman.jpg"			
+			"imageURL": "images/aman.jpg",
+            "number": "(800) 273-8255"
 		},
         {
 			"name": "Nhu Nguyen",
 			"depart": "10:20 a.m.",
-			"imageURL": "images/nhu.jpg"			
+			"imageURL": "images/nhu.jpg",
+            "number": "(800) 273-8255"
 		},
         {
 			"name": "Tim Banh",
 			"depart": "10:32 a.m.",
-			"imageURL": "images/tim.jpg"			
+			"imageURL": "images/tim.jpg",
+            "number": "(800) 273-8255"
 		},
         {
 			"name": "Alex Lee",
 			"depart": "11:15 a.m.",
-			"imageURL": "images/alex.jpg"			
+			"imageURL": "images/alex.jpg",
+            "number": "(800) 273-8255"
 		},
         {
 			"name": "Fiona Tran",
 			"depart": "11:32 a.m.",
-			"imageURL": "images/fiona.jpg"			
+			"imageURL": "images/fiona.jpg",
+            "number": "(800) 273-8255"
 		},
         {
 			"name": "Mark",
 			"depart": "UNAVAILABLE",
-			"imageURL": "images/mark.jpg"			
+			"imageURL": "images/mark.jpg",
+            "number": "(800) 273-8255"
 		}
 	]
 }
