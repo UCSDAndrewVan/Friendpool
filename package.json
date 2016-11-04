@@ -4,10 +4,13 @@
   "description": "Friendpool",
   "main": "server.js",
   "dependencies": {
+    "compression": "^1.6.2",
     "express": "3.x",
     "express-handlebars": "^3.0.0",
     "express3-handlebars": "^0.5.2",
-    "handlebars": "^4.0.5"
+    "handlebars": "^4.0.5",
+    "logger": "0.0.1",
+    "morgan": "^1.7.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -18,8 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/UCSDAndrewVan/Friendpool.git"
   },
-    
   "engines": {
-  	"node": "0.10.x"
+    "node": "0.10.x"
   }
 }

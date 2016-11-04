@@ -7,4 +7,4 @@ $(document).ready(function() {
     row.append('<div class="col-xs-12">' + name + "</div>");
     row.append('<div class="col-xs-12"><img id="smiley" src="' + img + '"></div>');
     confirm.append(row);
-});
+});z
