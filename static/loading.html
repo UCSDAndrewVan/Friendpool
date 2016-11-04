@@ -5,52 +5,54 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
+
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+    
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
-  <link href="css/loading.css" rel="stylesheet" type="text/css" />
-  <title>Awaiting Confirmation</title>
+        
+  <link href="css/loading.css" rel="stylesheet" type="text/css"/>
+        
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+  </script>
+        
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+  </script>
     
   <meta name="description" content="Loading">
   <meta name="author" content="SitePoint">
     
 </head>
 
-<body>
-  <div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-            <h1 class= "text-center">Awaiting confirmation from Driver</h1>
-        </div>
-    </div>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1 class= "text-center">Awaiting confirmation from Driver</h1>
+                </div>
+            </div>
     
-    <div class="row">
-        <div class="col-xs-12">
-            <img src="images/red-car.gif" alt="Animated Car" class="img-rounded">
-        </div>
-    
-        <div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <img src="images/red-car.gif" alt="Animated Car" class="img-rounded">
+                </div>
+            </div>
             <a href="riderhome.html" class="confirmation">
-            <script type="text/javascript">
-                var elems = document.getElementsByClassName('confirmation');
-                var confirmIt = function (e) {
-                    if (!confirm('Are you sure you want to cancel ride?')) e.preventDefault();
-                };
-                for (var i = 0, l = elems.length; i < l; i++) {
-                    elems[i].addEventListener('click', confirmIt, false);
+                <script type="text/javascript">
+                    var elems = document.getElementsByClassName('confirmation');
+                    var confirmIt = function (e) {
+                        if (!confirm('Are you sure you want to cancel ride?')) e.preventDefault();
+                    };
+                    for (var i = 0, l = elems.length; i < l; i++) {
+                        elems[i].addEventListener('click', confirmIt, false);
                 }
-            </script>
-            <button type-"button" class="btn btn-danger btn-lg">Cancel Ride?</button>
-        </a>
+                </script>
+            Cancel ride</a>
         </div>
-    </div>
-  </div>
-</body>
+    </body>
 </html>
