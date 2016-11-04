@@ -4,7 +4,7 @@
   "description": "Friendpool",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.14.0",
+    "express": "3.x",
     "express-handlebars": "^3.0.0",
     "express3-handlebars": "^0.5.2",
     "handlebars": "^4.0.5"
@@ -18,13 +18,8 @@
     "type": "git",
     "url": "git+https://github.com/UCSDAndrewVan/Friendpool.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/UCSDAndrewVan/Friendpool/issues"
-  },
-  "homepage": "https://github.com/UCSDAndrewVan/Friendpool#readme",
-  "dependencies": {
-    "express": "^4.14.0"
+    
+  "engines": {
+  	"node": "0.10.x"
   }
 }
