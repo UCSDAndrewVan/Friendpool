@@ -24,9 +24,11 @@
         <div class="container">
             <h1>Thank you for volunteering!</h1>
             <p>We will notify you here if someone requests a ride.</p>
-            <a href="drivertime.html" class="confirmation">
+            <a href="drivertime.html">
+            <button type="button" class="btn btn-primary">
+
             <script type="text/javascript">
-                var elems = document.getElementsByClassName('confirmation');
+                var elems = document.getElementsByClassName('btn btn-primary');
                 var confirmIt = function (e) {
                     if (!confirm('Are you sure you want to cancel trip?')) e.preventDefault();
                 };
@@ -34,8 +36,10 @@
                     elems[i].addEventListener('click', confirmIt, false);
                 }
             </script>
+                
                 Cancel trip
-        </a>
+            </button>
+            </a>
         </div>
     </body>
 </html>
