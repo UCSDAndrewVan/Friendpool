@@ -1,5 +1,5 @@
 $.getJSON("../data.json",
-function (data){
+function (data) {
     var frame = $("#frame");
     for (var i = 0; i < data.friends.length; i++) {
         
@@ -28,3 +28,19 @@ $(document).on("click", '.ride', function() {
     sessionStorage.setItem('img', img);
     window.location = "../static/confirm.html";
 });
+
+//var data = require('../data.json');
+//var drivers = [];
+//for (var key in data){
+//    var friend = data[key];
+//    for(var i = 0; i < friend.length; i++){
+//        if(friend.name != "" && friend.depart != "UNAVAILABLE"){
+//            friend[i] = "depart?rest"+ key + "&id=" + i;
+//            drivers.push(friend); 
+//        }
+//    }
+//}
+//
+//exports.view = function(req, res) {
+//    res.render('riderhome', drivers);
+//}

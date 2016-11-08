@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
-    <meta charset="utf-8"> 
+    <title>Request a Ride</title>
+      <meta charset="utf-8"> 
     
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -13,26 +15,36 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       
-      <link href="css/riderhome.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="css/riderhome.css" type="text/css">
       
       <h1>REQUEST A RIDE</h1>
   </head>
     <body>
 
-        <div id="frame">
+<!--
+        <div>
+            {{#each friends}}
+            <div class="row">
+                <div class="col-sm-4"><p>{{this.depart}}</p></div>
+                <div class="col-sm-2"><img src="{{this.imageURL}}"></div>
+                <div class="col-sm-6"><p>{{this.name}}</p></div>
+            </div>
+            <hr>
+            {{/each}}
         </div>
+-->
             
         <script src="js/riderhome.js"></script>
         
         <div class="goback">
-            <a href="driverrider.html">
-                <button type="button" class="btn btn-primary" onclick="goBack()">Go back</button>
+            <a href="driverrider">
+                <button type="button" class="btn btn-primary" onclick="history.go(-1)">Go back</button>
             </a>
         </div>
         
         <div class ="helpSettings">
-            <a href = "help.html"><i class="material-icons" style="font-size:36px">info_outline</i></a>
-            <a href = "settings.html"> <i class="material-icons" style="font-size:36px">settings</i> </a>
+            <a href = "help"><i class="material-icons" style="font-size:36px">info_outline</i></a>
+            <a href = "settings"> <i class="material-icons" style="font-size:36px">settings</i> </a>
         </div> 
     </body>
 </html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Thank you!</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=500">
+        
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <link href="css/thanks.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+        </script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Thank you for volunteering!</h1>
+            <p>We will notify you here if someone requests a ride.</p>
+            <a href="drivertime">
+            <button type="button" class="btn btn-primary">
+
+            <script type="text/javascript">
+                var elems = document.getElementsByClassName('btn btn-primary');
+                var confirmIt = function (e) {
+                    if (!confirm('Are you sure you want to cancel trip?')) e.preventDefault();
+                };
+                for (var i = 0, l = elems.length; i < l; i++) {
+                    elems[i].addEventListener('click', confirmIt, false);
+                }
+            </script>
+                
+                Cancel trip
+            </button>
+            </a>
+        </div>
+    </body>
+</html>

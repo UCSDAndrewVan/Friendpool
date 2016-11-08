@@ -10,21 +10,10 @@
     margin-right: 5%;
 }
 
-div.item{
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    width:auto;
-}
-
-.caption{
-    display:block;
-}
-
 h1{
     text-align: center;
     font-size: 55px;
-     font-family: myFont;
+    font-family: myFont;
     letter-spacing: 1px;
 }
 
