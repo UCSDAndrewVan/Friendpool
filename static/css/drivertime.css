@@ -26,3 +26,8 @@ body {
     text-align: right;
     margin-right: 5%;
 }
+
+ul li a{
+    font-family: myFont;
+    letter-spacing: 1px;
+}

@@ -72,3 +72,8 @@ body .row
 {
     background-color: bisque;
 }
+
+ul li a{
+    font-family: myFont;
+    letter-spacing: 1px;
+}
