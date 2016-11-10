@@ -1,36 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="en">
-  <head>
+<head>
     <title>Request a Ride</title>
-      <meta charset="utf-8"> 
+    <meta charset="utf-8"> 
     
       <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
       <!-- jQuery library -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
       <!-- Latest compiled JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       
-      <link rel="stylesheet" href="css/riderhome.css" type="text/css">
+    <link rel="stylesheet" href="css/riderhome.css" type="text/css">
       
-      <h1>REQUEST A RIDE</h1>
-  </head>
-    <body>        
-        <div class="container">
+</head>
+<body>        
+    <div class="container">
+        <h1>REQUEST A RIDE</h1>
             {{#each friends}}
-                <hr>
-                <div class="row" value={{id}}>
+                 <div class="row">
                     <div class="col-sm-4">{{depart}}</div>
                     <div class="col-sm-2"><img src="{{imageURL}}"></div>
                     <div class="col-sm-6">{{name}}</div>
                 </div>
             {{/each}}
-        </div>
-  
 <!--        <script src="js/riderhome.js"></script>-->
         
         <div class="goback">
@@ -38,10 +35,10 @@
                 <button type="button" class="btn btn-primary" onclick="history.go(-1)">Go back</button>
             </a>
         </div>
-        
         <div class ="helpSettings">
             <a href = "help"><i class="material-icons" style="font-size:36px">info_outline</i></a>
             <a href = "settings"> <i class="material-icons" style="font-size:36px">settings</i> </a>
         </div> 
-    </body>
+    </div>
+</body>
 </html>

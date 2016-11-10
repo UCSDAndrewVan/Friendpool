@@ -1,15 +1,17 @@
 var data = require('../data.json');
-var friends = [];
+var friendsList = [];
 for (var key in data){
-    var friend = data[key];
-    for(var i = 0; i < friend.length; i++){
+    var friends = data[key];
+    for(var i = 0; i < friends.length; i++){
+        var friend = friends[i];
         if(friend.name != "" && friend.depart != "UNAVAILABLE"){
             friend[i] = "depart?time"+ key + "&id=" + i;
-            friends.push(friend); 
+            friendsList.push(friend);
         }
     }
 }
 
 exports.view = function(req, res) {
-    res.render('riderhome', {friends: friends});
+    console.log(data);
+    res.render('riderhome', data);
 }

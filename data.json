@@ -38,7 +38,7 @@
 		},
         {
 			"name": "Mark",
-			"depart": "UNAVAILABLE",
+			"depart": "N/A",
 			"imageURL": "images/mark.jpg",
             "number": "(800) 273-8255"
 		}

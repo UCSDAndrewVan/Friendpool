@@ -28,7 +28,7 @@ body {
     max-width: 50vmax;
 }
 
-.col-sm-6 p1
+.col-sm-6
 {    
     font-size:4vmax;
     margin: auto;
@@ -36,7 +36,7 @@ body {
     text-transform: uppercase;
 }
 
-.col-sm-4 p2
+.col-sm-4
 {   
     font-size:4vmax;
     text-align: left;

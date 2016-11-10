@@ -11,6 +11,8 @@ var express = require('express');
 var app = express();
 var exphbs = require('express3-handlebars');
 
+var riderhome = require('./routes/riderhome')
+
 app.engine('handlebars', exphbs({defaultlayout: 'main'}));
 app.set('view engine', 'handlebars');
 
@@ -24,12 +26,10 @@ app.use(express.static(__dirname + '/static'));
 //var riderhome = require('./routes/riderhome.js');
 
 //app.get('/riderhome', riderhome.view());
+app.get('/riderhome', riderhome.view);
 
 app.get('/', function(req, res) {
     res.render('index')
-});
-app.get('/riderhome', function(req, res) {
-    res.render('riderhome')
 });
 app.get('/confirm', function(req, res) {
     res.render('confirm')
