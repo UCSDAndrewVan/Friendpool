@@ -1,4 +1,4 @@
-$.getJSON("../data.json",
+$.getJSON("data.json",
 function (data) {
     var frame = $("#frame");
     for (var i = 0; i < data.friends.length; i++) {
@@ -35,7 +35,7 @@ $(document).on("click", '.ride', function() {
 //    var friend = data[key];
 //    for(var i = 0; i < friend.length; i++){
 //        if(friend.name != "" && friend.depart != "UNAVAILABLE"){
-//            friend[i] = "depart?rest"+ key + "&id=" + i;
+//            friend[i] = "depart?time"+ key + "&id=" + i;
 //            drivers.push(friend); 
 //        }
 //    }
