@@ -1,3 +1,9 @@
+@font-face
+{
+  font-family: myFont;
+  src:url('../fonts/BebasNeue Bold.otf');
+}
+
 #logo {
     display: block;
     margin: auto;
@@ -18,4 +24,9 @@ body {
 
 .divider {
     padding-bottom: 2vmax;
+}
+
+ul li a{
+    font-family: myFont;
+    letter-spacing: 1px;
 }

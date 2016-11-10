@@ -20,3 +20,8 @@ h1{
 body {
   background-color: #b3e6ff;
 }
+
+ul li a{
+    font-family: myFont;
+    letter-spacing: 1px;
+}
