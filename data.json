@@ -1,46 +1,53 @@
 {
-	"friends": [
-		{
+	"friends": {
+		"Andrew Van" :{
 			"name": "Andrew Van",
 			"depart": "10:05 a.m.",
 			"imageURL": "images/andrew.jpg",	
-            "number": "(800) 273-8255"
+            "number": "(800) 273-8255",
+            "available" : true
 		},
-        {
+        "Aman Azad": {
 			"name": "Aman Azad",
 			"depart": "10:10 a.m.",
 			"imageURL": "images/aman.jpg",
-            "number": "(800) 273-8255"
+            "number": "(800) 273-8255",
+            "available" : true
 		},
-        {
+        "Nhu Nguyen": {
 			"name": "Nhu Nguyen",
 			"depart": "10:20 a.m.",
 			"imageURL": "images/nhu.jpg",
-            "number": "(800) 273-8255"
+            "number": "(800) 273-8255",
+            "available" : true
 		},
-        {
+        "Tim Banh": {
 			"name": "Tim Banh",
 			"depart": "10:32 a.m.",
 			"imageURL": "images/tim.jpg",
-            "number": "(800) 273-8255"
+            "number": "(800) 273-8255",
+            "available" : true
 		},
-        {
+        "Alex Lee": {
 			"name": "Alex Lee",
 			"depart": "11:15 a.m.",
 			"imageURL": "images/alex.jpg",
-            "number": "(800) 273-8255"
+            "number": "(800) 273-8255",
+            "available" : true
 		},
-        {
+        "Fiona Tran": {
 			"name": "Fiona Tran",
 			"depart": "11:32 a.m.",
 			"imageURL": "images/fiona.jpg",
-            "number": "(800) 273-8255"
+            "number": "(800) 273-8255",
+            "available" : true
 		},
-        {
+        "Mark": {
 			"name": "Mark",
-			"depart": "N/A",
+			"depart": "UNAVAILABLE",
 			"imageURL": "images/mark.jpg",
-            "number": "(800) 273-8255"
+            "number": "(800) 273-8255",
+            "available" : false
 		}
-	]
+    }
 }

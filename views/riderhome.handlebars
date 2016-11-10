@@ -21,13 +21,24 @@
 <body>        
     <div class="container">
         <h1>REQUEST A RIDE</h1>
-            {{#each friends}}
-                 <div class="row">
-                    <div class="col-sm-4">{{depart}}</div>
-                    <div class="col-sm-2"><img src="{{imageURL}}"></div>
-                    <div class="col-sm-6">{{name}}</div>
-                </div>
-            {{/each}}
+        {{#each friends}}
+            {{#if available}}
+            <a href="confirm">
+            <div class="row">
+                <div class="col-sm-4">{{depart}}</div>
+                <div class="col-sm-2"><img src="{{imageURL}}"></div>
+                <div class="col-sm-6">{{name}}</div>
+            </div>
+            </a>
+            {{else}}
+            <div class="row" id="unavailable">
+                <div class="col-sm-4">{{depart}}</div>
+                <div class="col-sm-2"><img src="{{imageURL}}"></div>
+                <div class="col-sm-6">{{name}}</div>
+            </div>
+            {{/if}}
+        {{/each}}
+        
 <!--        <script src="js/riderhome.js"></script>-->
         
         <div class="goback">

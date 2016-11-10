@@ -12,6 +12,5 @@ for (var key in data){
 }
 
 exports.view = function(req, res) {
-    console.log(data);
     res.render('riderhome', data);
 }

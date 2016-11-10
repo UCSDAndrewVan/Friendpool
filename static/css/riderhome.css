@@ -13,12 +13,13 @@ h1{
 }
 
 body {
-  background-color: #b3e6ff;
+    background-color: #b3e6ff;
 }
 
 .row
 {
     font-family: myFont;
+    color: black;
     cursor: pointer;
     margin: auto;
     border-color: black;
