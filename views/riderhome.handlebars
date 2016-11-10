@@ -19,10 +19,19 @@
       
       <h1>REQUEST A RIDE</h1>
   </head>
-    <body>
-
-            
-        <script src="js/riderhome.js"></script>
+    <body>        
+        <div class="container">
+            {{#each friends}}
+                <hr>
+                <div class="row" value={{id}}>
+                    <div class="col-sm-4">{{depart}}</div>
+                    <div class="col-sm-2"><img src="{{imageURL}}"></div>
+                    <div class="col-sm-6">{{name}}</div>
+                </div>
+            {{/each}}
+        </div>
+  
+<!--        <script src="js/riderhome.js"></script>-->
         
         <div class="goback">
             <a href="driverrider">
