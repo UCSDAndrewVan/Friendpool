@@ -23,7 +23,7 @@ body {
 }
 
 p {
-    font: myFont;
+    font-family: Helvetica;
     color: black;
 }
 
