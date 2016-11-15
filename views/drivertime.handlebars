@@ -26,38 +26,29 @@
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                         <a class="navbar-brand" href="/">Friendpool</a>
                     </div>
-                    <ul class="nav navbar-nav">
-                    <li><a href="/">Home</a></li>
-                    <li class="active"><a href="drivertime">Driver</a></li>
-                    <li><a href="riderhome">Rider</a></li>
-                    <li><a href="help">Help</a></li>
-                    </ul>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                        <li><a href="/">Home<span class="sr-only">(current)</span></a></li>
+                        <li class="active"><a href="drivertime">Driver</a></li>
+                        <li><a href="riderhome">Rider</a></li>
+                        <li><a href="help">Help</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
-        
-        <div class = "container">
-            <div class="jumbotron">
-            
-            <div style="text-align: center; margin-top:1vmax; margin-bottom:3px;"> 
-                <input style="font-family:Helvetica;width:30vmax" type="text" name="username" value = ""placeholder="What is your name?">          
-            </div>    
-            <div style="text-align: center; margin-bottom:1vmax; margin-bottom:3px;">           
-                <input style="font-family: Helvetica; width:30vmax" type="text" name="userlocation" value=""placeholder="Where are you going?">      
-            </div> 
-            <div style="text-align: center; margin-bottom:1vmax;">
-                <input style="font-family: Helvetica; width:30vmax" type="text" name="usernumber" value=""placeholder="What is your phone number?">      
-            </div>    
-            </div>
-        </div>
-
-        
-        <h1>When do you plan on going to campus?</h1>    
+            <h1>What time are you going to campus?</h1>
             <form enctype="data.json">
                 <div class="form-group">
                     <label for="sel2"></label>
-                    <select size="1" name="time" class="form-control input-lg" id="sel2">
+                    <select size="1" name="time" class="form-control input-med" id="sel2" style="width: 40vmax;">
                         <option value="630">6:30 A.M.</option>
                         <option value="645">6:45 A.M.</option>
                         <option value="700">7:00 A.M.</option>
@@ -140,7 +131,12 @@
                     </select>
                 </div>  
             </form>
-
+            <div style="text-align: center; margin-top:1vmax; margin-bottom:1vmax;"> 
+                <input style="font-family:Helvetica; width:40vmax" type="text" name="username" value placeholder="Your Name" id="name"> 
+            </div>    
+            <div style="text-align: center; margin-bottom:1vmax;">
+                <input style="font-family: Helvetica; width:40vmax" type="text" name="usernumber" value placeholder="Phone Number" id="number">      
+            </div>    
             <div class="pull-right">
                 <a href="thanks">
                     <button type="button" onclick="mySubmit()" class="btn-primary btn" id="submit">Submit</button>

@@ -15,20 +15,20 @@
 
 body {
     background-color: #b3e6ff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
 }
 
 p {
-    font: myFont;
+    font-family: myFont;
+    font-size: 2vmax;
     color: black;
 }
 
 .divider {
     padding-bottom: 2vmax;
+}
+
+.navbar-brand {
+    font-family: myFont;
 }
 
 ul li a{

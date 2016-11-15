@@ -29,6 +29,10 @@ body {
     max-width: 50vmax;
 }
 
+.navbar-brand {
+    font-family: myFont;
+}
+
 .col-sm-6
 {    
     font-size:4vmax;

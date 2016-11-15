@@ -4,10 +4,8 @@
     src:url('../fonts/BebasNeue Bold.otf');
 }
 
-.helpSettings
-{
-    text-align: right;
-    margin-right: 5%;
+.navbar-brand {
+    font-family: myFont;
 }
 
 h1{

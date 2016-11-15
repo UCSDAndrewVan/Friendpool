@@ -61,6 +61,9 @@ app.get('/loading', function(req, res) {
 app.get('/settings', function(req, res) {
     res.render('settings')
 });
+app.get('/thanks', function(req, res) {
+    res.render('thanks')
+});
 
 // Start the server
 var port = process.env.PORT || PORT; // 80 for web, 3000 for development
