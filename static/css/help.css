@@ -36,3 +36,6 @@ ul li a{
     font-family: myFont;
     letter-spacing: 1px;
 }
+.navbar-brand {
+    font-family: myFont;
+}

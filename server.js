@@ -67,7 +67,9 @@ app.get('/thanks', function(req, res) {
 app.get('/riderinfo', function(req, res) {
     res.render('riderinfo')
 });
-
+app.get('/driverridertest', function(req, res) {
+    res.render('driverridertest')
+});
 // Start the server
 var port = process.env.PORT || PORT; // 80 for web, 3000 for development
 app.listen(port, function() {
