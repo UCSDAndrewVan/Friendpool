@@ -67,6 +67,7 @@ app.get('/thanks', function(req, res) {
 app.get('/riderinfo', function(req, res) {
     res.render('riderinfo')
 });
+<<<<<<< HEAD
 app.get('/confirmalex', function(req, res) {
     res.render('confirmalex')
 });
@@ -80,6 +81,11 @@ app.get('/driverthanks', function(req, res) {
     res.render('driverthanks')
 });
 
+=======
+app.get('/driverridertest', function(req, res) {
+    res.render('driverridertest')
+});
+>>>>>>> f7135dda23e6a86122aa11d5569e2f957380baaf
 // Start the server
 var port = process.env.PORT || PORT; // 80 for web, 3000 for development
 app.listen(port, function() {

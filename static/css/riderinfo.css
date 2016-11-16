@@ -30,3 +30,7 @@ p{
     text-align: center;
     font-family: Helvetica;
 }
+
+.navbar-brand {
+    font-family: myFont;
+}
