@@ -1,0 +1,83 @@
+@font-face
+{
+    font-family: myFont;
+    src:url('../fonts/BebasNeue Bold.otf');
+}
+
+
+h1{
+    text-align: center;
+    font-size: 5vmax;
+    font-family: myFont;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: #b3e6ff;
+}
+
+.row
+{
+    font-family: myFont;
+    color: black;
+    cursor: pointer;
+    margin: auto;
+    border-color: black;
+    background-color:white;
+    padding-top: 3vmax;
+    padding-bottom: 3vmax;
+    max-width: 70vmax;
+}
+
+.navbar-brand {
+    font-family: myFont;
+}
+
+.col-sm-6
+{    
+    font-size:4vmax;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.col-sm-4
+{   
+    font-size:4vmax;
+    text-align: left;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.col-sm-2 img
+{
+    float:right;
+    width: 5vmax;
+    height: 5vmax;
+    border-radius: 50%;
+}
+
+.helpSettings
+{
+    text-align: right;
+    margin-right: 5%;
+}
+
+.goback {
+    padding-left: 3vmax;
+}
+
+body .row
+{
+    margin-bottom: 1vmax;
+}
+
+#unavailable
+{
+    background-color: bisque;
+}
+
+ul li a{
+    font-family: myFont;
+    letter-spacing: 1px;
+}
