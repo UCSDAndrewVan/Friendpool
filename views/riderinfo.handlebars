@@ -3,7 +3,7 @@
     <head>
         <title>Rider Information</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=375">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/bootstrap-theme.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -44,10 +44,9 @@
 -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                        <li><a href="/">Home<span class="sr-only">(current)</span></a></li>
-                        <li><a href="drivertime">Driver</a></li>
-                        <li class="active"><a href="riderinfo">Rider</a></li>
-                        <li><a href="help">Help</a></li>
+                            <li><a href="drivertime">Driver</a></li>
+                            <li class="active"><a href="riderinfo">Rider</a></li>
+                            <li><a href="help">Help</a></li>
                         </ul>
                     </div>
                 </div>
@@ -58,7 +57,7 @@
             <form class="form-horizontal" enctype="application/json">
                 <div class="form-group" action="riderhomealex">
                     <label class="col-xs-3 control-label">Name</label>
-                    <div class="col-xs-9">
+                    <div class="col-xs-9" style="margin-bottom:2vmax;">
                         <input name="name" class="form-control" id="focusedInput" type="text" placeholder="Enter Name">
                     </div> 
                 </div>
@@ -69,8 +68,8 @@
                     </div>  
                 </div>
                 <div class="form-group">
-                    <label class="col-xs-3 control-label">Phone Number</label>
-                    <div class="col-xs-9">
+                    <label class="col-xs-3 control-label" style="margin-bottom:3vmax;">Phone Number</label>
+                    <div class="col-xs-9" style="margin-bottom:3vmax;">
                         <input class="form-control" id="focusedInput" type="text" placeholder="Enter Phone Number">
                     </div>  
                </div>
@@ -81,7 +80,7 @@
 -->
                 <div class="pull-left">
                     <a href="driverrider">
-                        <button type="button" class="btn-primary btn" onclick="goBack()">Go back</button>
+                        <button type="button" class="btn-primary btn">Go back</button>
                     </a>
                 </div>                  
                 <div class="pull-right">

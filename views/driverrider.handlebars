@@ -3,7 +3,7 @@
 <head>
     <title>Driver or Rider?</title>
     <meta charset="utf-8">
-<!--        <meta name="viewport" content="width=350">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
         
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -23,7 +23,7 @@
 <body>
     <div class="container">
         <nav class="navbar navbar-default">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
@@ -35,10 +35,9 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                    <li><a href="/">Home<span class="sr-only">(current)</span></a></li>
-                    <li><a href="drivertime">Driver</a></li>
-                    <li><a href="riderinfo">Rider</a></li>
-                    <li><a href="help">Help</a></li>
+                        <li class="active"><a href="drivertime">Driver</a></li>
+                        <li><a href="riderinfo">Rider</a></li>
+                        <li><a href="help">Help</a></li>
                     </ul>
                 </div>
             </div>
@@ -52,15 +51,16 @@
                 <img class="img-rounded" src="images/drivernobg.png">
             </div>
             <div class="col-xs-6" style="text-align:center;">
-                    <img class="img-rounded" src="images/riderlogo.png">
+                <img class="img-rounded" src="images/riderlogo.png">
             </div>
         </div>
+        <div class="space" style="padding-bottom:4vmax;"></div>
         <div class="row">
             <div class="col-xs-6" style="text-align:center;">
-                <a href="drivertime" class="btn-primary btn-lg" role="button" style="position:relative; left:-5px;">Driver</a>
+                <a href="drivertime" class="btn-primary btn" role="button" style="position:relative; left:-5px;">Driver</a>
            </div>
             <div class="col-xs-6" style="text-align:center;">
-                <a href="riderinfo" class="btn-primary btn-lg" role="button" style="position:relative;left:5px">Rider</a>
+                <a href="riderinfo" class="btn-primary btn" role="button" style="position:relative; left:5px">Rider</a>
             </div>
         </div>    
 

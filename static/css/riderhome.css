@@ -1,11 +1,10 @@
-@font-face
-{
+@font-face {
     font-family: myFont;
     src:url('../fonts/BebasNeue Bold.otf');
 }
 
 
-h1{
+h1 {
     text-align: center;
     font-size: 5vmax;
     font-family: myFont;
@@ -16,8 +15,7 @@ body {
     background-color: #b3e6ff;
 }
 
-.row
-{
+.row {
     font-family: myFont;
     color: black;
     cursor: pointer;
@@ -33,54 +31,28 @@ body {
     font-family: myFont;
 }
 
-.col-sm-6
-{    
-    font-size:4vmax;
-    margin: auto;
+.col-xs-4 {   
+    font-size: 3vmax;
     text-align: center;
-    text-transform: uppercase;
-    display: block;
-}
-
-.col-sm-4
-{   
-    font-size:4vmax;
-    text-align: left;
     margin: auto;
     text-transform: uppercase;
-    display: block;
 }
 
-.col-sm-2 img
-{
-    float:right;
+.col-xs-4 img {
     width: 5vmax;
     height: 5vmax;
     border-radius: 50%;
-    display: block;
 }
 
-.helpSettings
-{
-    text-align: right;
-    margin-right: 5%;
-}
-
-.goback {
-    padding-left: 3vmax;
-}
-
-body .row
-{
+body .row {
     margin-bottom: 1vmax;
 }
 
-#unavailable
-{
+#unavailable {
     background-color: bisque;
 }
 
-ul li a{
+ul li a {
     font-family: myFont;
     letter-spacing: 1px;
 }

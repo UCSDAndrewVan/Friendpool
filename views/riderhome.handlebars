@@ -4,6 +4,7 @@
 <head>
     <title>Request a Ride</title>
     <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
       <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -21,7 +22,7 @@
 <body>        
     <div class="container">
         <nav class="navbar navbar-default">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
@@ -33,10 +34,9 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                    <li><a href="/">Home<span class="sr-only">(current)</span></a></li>
-                    <li class="active"><a href="drivertime">Driver</a></li>
-                    <li><a href="riderhome">Rider</a></li>
-                    <li><a href="help">Help</a></li>
+                        <li class="active"><a href="drivertime">Driver</a></li>
+                        <li><a href="riderinfo">Rider</a></li>
+                        <li><a href="help">Help</a></li>
                     </ul>
                 </div>
             </div>
@@ -47,27 +47,27 @@
             {{#if available}}
             <a href="confirm">
             <div class="row">
-                <div class="col-sm-4">{{depart}}</div>
-                <div class="col-sm-2"><img src="{{imageURL}}"></div>
-                <div class="col-sm-6">{{name}}</div>
+                <div class="col-xs-4">{{depart}}</div>
+                <div class="col-xs-4"><img src="{{imageURL}}"></div>
+                <div class="col-xs-4">{{name}}</div>
             </div>
             </a>
             {{else}}
             <div class="row" id="unavailable">
-                <div class="col-sm-4">{{depart}}</div>
-                <div class="col-sm-2"><img src="{{imageURL}}"></div>
-                <div class="col-sm-6">{{name}}</div>
+                <div class="col-xs-4">{{depart}}</div>
+                <div class="col-xs-4"><img src="{{imageURL}}"></div>
+                <div class="col-xs-4">{{name}}</div>
             </div>
             {{/if}}
         {{/each}}
         
 <!--        <script src="js/riderhome.js"></script>-->
         
-        <div class="goback">
-            <a href="driverrider">
-                <button type="button" class="btn btn-primary" onclick="history.go(-1)">Go back</button>
+        <div class="pull-left">
+            <a href="riderinfo">
+                <button type="button" class="btn-primary btn">Go back</button>
             </a>
         </div>
-    </div>
+    </div>1
 </body>
 </html>
