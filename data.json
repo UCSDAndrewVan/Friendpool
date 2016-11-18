@@ -1,5 +1,5 @@
 {
-	"friends": {
+	"drivers": {
 		"Andrew Van" :{
 			"name": "Andrew Van",
 			"depart": "10:05 a.m.",
@@ -49,5 +49,7 @@
             "number": "(800) 273-8255",
             "available" : false
 		}
-    }
+    },
+    
+    "riders": { }
 }

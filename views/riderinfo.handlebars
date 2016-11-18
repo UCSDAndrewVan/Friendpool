@@ -54,25 +54,32 @@
             
             <h1>Please enter your rider info</h1>
             <p>This information is for the driver to decide whether or not they can accommodate your pickup. Friendpool does not use this information for anything besides the sole purpose of relaying information to potential drivers.</p>
-            <form class="form-horizontal" enctype="application/json">
+            <form class="form-horizontal" id="addRider" role="form" method="get" action="/addRider">
                 <div class="form-group" action="riderhomealex">
-                    <label class="col-xs-3 control-label">Name</label>
-                    <div class="col-xs-9" style="margin-bottom:2vmax;">
+                    <label class="col-xs-3 control-label" for="name">Name</label>
+                    <div class="col-xs-9">
                         <input name="name" class="form-control" id="focusedInput" type="text" placeholder="Enter Name">
                     </div> 
                 </div>
+                <div class="form-group">
+                    <label class="col-xs-3 control-label" for="time">Time</label>
+                    <div class="col-xs-9">
+                        <input class="form-control" id="focusedInput" type="text" placeholder="Enter Depart Time">
+                    </div>
+                </div>
                 <div class="form-group">    
-                    <label class="col-xs-3 control-label">Pickup Location</label>
+                    <label class="col-xs-3 control-label" for="location">Location</label>
                     <div class="col-xs-9">
                         <input class="form-control" id="focusedInput" type="text" placeholder="Enter Desired Pickup Location">
                     </div>  
                 </div>
                 <div class="form-group">
-                    <label class="col-xs-3 control-label" style="margin-bottom:3vmax;">Phone Number</label>
+                    <label class="col-xs-3 control-label" style="margin-bottom:3vmax;" for="number">Number</label>
                     <div class="col-xs-9" style="margin-bottom:3vmax;">
                         <input class="form-control" id="focusedInput" type="text" placeholder="Enter Phone Number">
                     </div>  
                </div>
+    
 <!--
                     <div class="col-sm-offset-2 col-sm-10">
                         <a href="riderhomealex" class="btn btn-default">Submit</a>
@@ -85,10 +92,10 @@
                 </div>                  
                 <div class="pull-right">
                     <a href="riderhomealex">
+<!--                        <input type="submit" id="submitBtn" class="btn btn-primary" value="Submit">-->
                         <button type="button" onclick="mySubmit()" class="btn-primary btn" id="submit">Submit</button>
                     </a>            
                 </div>
-                
             </form>
         </div>
     </body>

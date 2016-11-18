@@ -11,7 +11,8 @@ var express = require('express');
 var app = express();
 var exphbs = require('express3-handlebars');
 
-var riderhome = require('./routes/riderhome')
+var riderhome = require('./routes/riderhome');
+var addrider = require('./routes/addrider');
 
 app.engine('handlebars', exphbs({defaultlayout: 'main'}));
 app.set('view engine', 'handlebars');
@@ -26,6 +27,7 @@ app.use(express.static(__dirname + '/static'));
 //var riderhome = require('./routes/riderhome.js');
 
 app.get('/riderhome', riderhome.view);
+app.get('/riderhome', addrider.addRider);
 
 app.get('/', function(req, res) {
     res.render('index')
@@ -66,7 +68,6 @@ app.get('/thanks', function(req, res) {
 app.get('/riderinfo', function(req, res) {
     res.render('riderinfo')
 });
-
 app.get('/confirmalex', function(req, res) {
     res.render('confirmalex')
 });
@@ -79,8 +80,6 @@ app.get('/requestandrew', function(req, res) {
 app.get('/driverthanks', function(req, res) {
     res.render('driverthanks')
 });
-
-
 app.get('/driverridertest', function(req, res) {
     res.render('driverridertest')
 });
