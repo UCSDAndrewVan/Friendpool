@@ -28,14 +28,14 @@ h1{
     letter-spacing: 1px;
 }
 
-body {
-  background-color: #b3e6ff;
-  text-align: center
-}
-ul li a{
-    font-family: myFont;
+p {
+    text-align: center;
+    font-size: 3vmax;
+     font-family: myFont;
     letter-spacing: 1px;
 }
-.navbar-brand {
-    font-family: myFont;
+
+body {
+  background-color: #b3e6ff;
+  text-align: center;
 }

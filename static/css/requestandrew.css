@@ -1,0 +1,60 @@
+@font-face
+{
+  font-family: myFont;
+  src:url('../fonts/BebasNeue Bold.otf');
+}
+
+body {
+  background-color: #b3e6ff;
+    align-content: center;
+}
+
+.button {
+    color: black;
+    margin: auto;
+    display: inline-block;
+    font-size: 7vmax;
+    padding-top: 5vmax;
+    font-family: myFont;
+}
+
+h2 {
+    text-align: center;
+    font-family: myFont;
+    font-size: 6vmax;
+}
+
+.col-xs-12 {
+    text-align: center;
+    font-family: myFont;
+    font-size: 6vmax;
+    padding-bottom: 1vmax;   
+}
+
+.row
+{
+    margin: auto;
+    text-align: center;
+}
+
+.row p1
+{
+    font-family: myFont;
+    font-size: 6vmax;
+}
+
+img
+{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.row p2
+{
+    text-align: center;
+    font-family: myFont;
+    font-size: 6vmax;
+}

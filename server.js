@@ -67,6 +67,24 @@ app.get('/riderinfo', function(req, res) {
     res.render('riderinfo')
 });
 
+app.get('/confirmalex', function(req, res) {
+    res.render('confirmalex')
+});
+app.get('/riderhomealex', function(req, res) {
+    res.render('riderhomealex')
+});
+app.get('/requestandrew', function(req, res) {
+    res.render('requestandrew')
+});
+app.get('/driverthanks', function(req, res) {
+    res.render('driverthanks')
+});
+
+
+app.get('/driverridertest', function(req, res) {
+    res.render('driverridertest')
+});
+
 // Start the server
 var port = process.env.PORT || PORT; // 80 for web, 3000 for development
 app.listen(port, function() {

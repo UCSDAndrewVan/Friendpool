@@ -46,10 +46,11 @@
             </nav>
             <h1>What time are you going to campus?</h1>
 
-            <form enctype="data.json">
+            <form class="form-horizontal" enctype="data.json">
                 <div class="form-group">
-                    <label for="sel2"></label>
-                    <select size="1" name="time" class="form-control input-med" id="sel2" style="width: 40vmax;">
+                    <label for="sel2" class="col-sm-2 control-label"></label>
+                    <div class="col-lg-9">
+                    <select size="1" name="time" class="form-control input-med" id="sel2">
                         <option value="630">6:30 A.M.</option>
                         <option value="645">6:45 A.M.</option>
                         <option value="700">7:00 A.M.</option>
@@ -130,16 +131,26 @@
                         <option value="145">1:45 A.M.</option>
                         <option value="200">2:00 A.M.</option>
                     </select>
-                </div>  
+                    </div>
+                    <div class="form-group">
+                    <label class="col-sm-2 control-label" style="padding-top:1vmax">Name</label>
+                        <div class="col-lg-9" style="padding-top:1vmax">
+                            <input name="name" class="form-control" id="focusedInput" type="text" placeholder="Enter Name">
+                        </div> 
+                    </div>
+                    <div class="form-group">
+                    <label class="col-sm-2 control-label">Phone Number</label>
+                        <div class="col-lg-9">
+                            <input class="form-control" id="focusedInput" type="text" placeholder="Enter Phone Number">
+                        </div>  
+                    </div>
+                   
+                </div>
             </form>
-            <div style="text-align: center; margin-top:1vmax; margin-bottom:1vmax;"> 
-                <input style="font-family:Helvetica; width:40vmax" type="text" name="username" value placeholder="Your Name" id="name"> 
-            </div>    
-            <div style="text-align: center; margin-bottom:1vmax;">
-                <input style="font-family: Helvetica; width:40vmax" type="text" name="usernumber" value placeholder="Phone Number" id="number">      
-            </div>    
+
+              
             <div class="pull-right">
-                <a href="thanks">
+                <a href="requestandrew">
                     <button type="button" onclick="mySubmit()" class="btn-primary btn" id="submit">Submit</button>
                 </a>            
             </div>
@@ -148,6 +159,7 @@
                 <button type="button" class="btn btn-primary" onclick="goBack()">Go back</button>
                 </a>
             </div>     
+
         </div>
     </body>
 </html>

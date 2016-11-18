@@ -39,6 +39,7 @@ body {
     margin: auto;
     text-align: center;
     text-transform: uppercase;
+    display: block;
 }
 
 .col-sm-4
@@ -47,6 +48,7 @@ body {
     text-align: left;
     margin: auto;
     text-transform: uppercase;
+    display: block;
 }
 
 .col-sm-2 img
@@ -55,6 +57,7 @@ body {
     width: 5vmax;
     height: 5vmax;
     border-radius: 50%;
+    display: block;
 }
 
 .helpSettings
