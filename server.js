@@ -25,7 +25,6 @@ app.use(express.static(__dirname + '/static'));
 //var rideaccepted = require('./routes/rideaccepted.js');
 //var riderhome = require('./routes/riderhome.js');
 
-//app.get('/riderhome', riderhome.view());
 app.get('/riderhome', riderhome.view);
 
 app.get('/', function(req, res) {
