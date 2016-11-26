@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88023564-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    
     <head>
         <title>Rider Information</title>
         <meta charset="utf-8">
@@ -44,9 +55,9 @@
 -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="drivertime">Driver</a></li>
-                            <li class="active"><a href="riderinfo">Rider</a></li>
-                            <li><a href="help">Help</a></li>
+                            <li class="active" ><a href="drivertime" onClick="ga(‘send’, ‘event’, ‘RiderInfo’, ‘Driver’, 1);">Driver</a></li>
+                            <li><a href="riderinfo" onClick="ga(‘send’, ‘event’, ‘RiderInfo’, ‘Rider’, 1);">Rider</a></li>
+                            <li><a href="help" onClick="ga(‘send’, ‘event’, ‘RiderInfo’, ‘Help’, 1);">Help</a></li>
                         </ul>
                     </div>
                 </div>
