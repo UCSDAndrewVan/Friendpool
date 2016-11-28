@@ -68,6 +68,9 @@ app.get('/thanks', function(req, res) {
 app.get('/riderinfo', function(req, res) {
     res.render('riderinfo')
 });
+app.get('/riderinfo2', function(req, res) {
+    res.render('riderinfo')
+});
 app.get('/confirmalex', function(req, res) {
     res.render('confirmalex')
 });
